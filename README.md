@@ -132,8 +132,6 @@ Play, pause, resume, and finish the narration tutorial. The stop confirmation le
 
 ## Wireframes
 
-The seven grayscale sheets show tutorial pages and dialogs grouped by task. They are simplified redraws based on the team's Figma, with shared layouts shown once. Dashed outlines identify proposed additions.
-
 ### Common pages
 
 ![Common tutorial wireframes](images/wireframes/01-common.png)
