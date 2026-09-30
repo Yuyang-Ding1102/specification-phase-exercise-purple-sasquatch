@@ -4,7 +4,11 @@ A little exercise to get started with the specification phase of the software de
 
 ## Team members
 
-See instructions. Delete this line and replace with a list of the names of your team members, including links to each one's GitHub profile.
+- [Yuyang Ding](https://github.com/Yuyang-Ding1102) — `yd2734`
+- [Ali Guo](https://github.com/AliG643) — `sg7920`
+- [Yvonne Lee](https://github.com/Lyvoj) — `yl11561`
+- [Sirius Yang](https://github.com/S1rius-Yang) — `hy2743`
+- [Zihan Chen](https://github.com/Vent1Zzz) — `zc2988`
 
 ## Review of the Current Application
 
