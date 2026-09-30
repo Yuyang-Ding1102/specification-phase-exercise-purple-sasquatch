@@ -116,11 +116,10 @@ protect their privacy. Their full names and email addresses will be shared
 privately with the course administrators for verification and will not be
 published in this repository.
 
-Our proposal uses one shared Tutorial Portal rather than requiring users to
-select a role before receiving help. Tutorials are organized through search,
-task-based categories, and contextually relevant recommendations. First-login
-onboarding, tutorial search, task categories, and a persistent tutorial entry
-are proposed additions rather than features of the current application. The
+Our proposal uses one shared Tutorial Portal with a searchable topic list,
+without requiring users to select a role before receiving help. Optional
+first-use onboarding, tutorial search, and a persistent tutorial entry are
+proposed additions rather than features of the current application. The
 proposal does **not** include an AI assistant.
 
 The current stakeholder research focuses on the two required user types:
@@ -363,9 +362,9 @@ quizzes fit together. Annie Q. hesitated at seed materials and did not naturally
 continue from recording to deck review and quiz generation. Jefferson C.
 initially understood the application primarily as a slide-viewing website.
 
-**Design implication:** Provide short, contextually relevant getting-started
-paths that lead into the same shared Tutorial Portal without requiring users to
-learn every feature at once.
+**Design implication:** Provide a short, optional first-use introduction that
+leads into the shared Tutorial Portal, where users can choose a topic without
+having to learn every feature at once.
 
 #### Finding 2 — Important existing features are not always discoverable
 
@@ -373,9 +372,8 @@ The instructor did not immediately understand seed materials or the
 post-recording workflow. Student participants did not immediately discover
 translation, narration, or quiz access without additional guidance.
 
-**Design implication:** Organize the shared Portal by searchable task
-categories, and recommend the most relevant topics during a short first-login
-experience based on the user's current application context.
+**Design implication:** Provide a shared topic list with clear descriptions
+and search, so users can find guidance for the features they want to learn.
 
 #### Finding 3 — Different users need different topics but can share one Portal
 
@@ -385,12 +383,9 @@ translation, narration, and other viewing features. A single undifferentiated
 list would expose users to irrelevant instructions, but separate tutorial
 systems would duplicate the same navigation and interaction structure.
 
-**Design implication:** Use one shared Tutorial Portal with search, task-based
-categories, and contextually recommended topics. Users should not be required
-to select a role before accessing tutorials. Categories such as **Getting
-Started**, **Creating and Presenting**, **Assessment**, and **Viewing and
-Accessibility** can organize content without limiting the system to specific
-roles.
+**Design implication:** Use one shared Tutorial Portal with a searchable topic
+list. Users should be able to choose any tutorial without first selecting a
+role.
 
 #### Finding 4 — Users need clearer status and recovery guidance
 
@@ -459,11 +454,61 @@ remain outside the scope of this proposal.
 
 ## Product Vision Statement
 
-See instructions. Delete this line and place your Product Vision Statement here — one sentence describing the improvements and new features your team is proposing for The Slide Machine.
+The Slide Machine will provide a shared, reusable Tutorial Portal with optional 
+first-use onboarding, searchable task-based guidance, highlighted step-by-step 
+instructions, and consistent completion, exit, and replay controls to help 
+students review lecture materials independently and instructors prepare and 
+check teaching materials with greater confidence.
 
 ## User Requirements
 
-See instructions. Delete this line and place a list of your User Stories here, grouped by type of user. These should describe functionality that is new or changed, not functionality the app already has.
+### Students
+
+1. As a student, I want a short first-use prompt that lets me start tutorials or
+choose Not now and stay on the current page, so that I can decide when to learn 
+the application without delaying my participation in class.
+
+2. As a student, I want to reopen the same Tutorial Portal through application Menu > Tutorials after my first visit, so that I can get guidance whenever I forget how to use a feature.
+
+3. As a student, I want to browse a shared list of clearly described tutorial topics, so that I can choose guidance relevant to lecture viewing and review without first selecting a user role.
+
+4. As a student, I want to search the Tutorial Portal for a task or feature, so that I can quickly find the instructions I need while studying.
+
+5. As a student, I want guided instructions for selecting a translation language and restoring the original lecture content, so that I can compare wording and check unfamiliar technical terms.
+
+6. As a student, I want guided instructions for starting, pausing, and resuming narration, so that I can learn to control audio playback during independent lecture review.
+
+7. As a student, I want each tutorial step to show a short instruction, a highlighted target, and my progress while letting me advance with Next, so that I can learn the controls at my own pace.
+
+8. As a student, I want a completion message identifying the tutorial I finished and a Back to Tutorials action, so that I can recognize the end of the guide and return to the shared topic list.
+
+9. As a student, I want to use the same Tutorial Portal to restart a completed or interrupted tutorial from Step 1 or choose a different topic, so that I can revisit forgotten instructions and decide what to learn next.
+
+10. As a student, I want an exit confirmation that explains the tutorial will remain incomplete and lets me continue at the current step or return to the Portal without changing my lecture content, so that I can interrupt the guide without losing my study material.
+
+11. As a student, I want a clear failure message when a tutorial action fails, with the current slide kept visible and options to Retry the failed action or Return to Portal without changing my lecture content, so that I can recover from the interruption without losing my study context.
+
+### Instructors
+
+1. As an instructor, I want a short first-use prompt that lets me start tutorials or postpone them with Not now, so that I can choose whether to learn the application before continuing my teaching work.
+
+2. As an instructor, I want a permanent application Menu > Tutorials entry that opens the same Tutorial Portal from my current workspace, so that I can consult guidance for an unfamiliar or infrequently used task.
+
+3. As an instructor, I want to search the Tutorial Portal using a task or problem description, so that I can find relevant instructions quickly during a time-sensitive preparation or review task.
+
+4. As an instructor, I want to browse a shared list of clearly described tutorial topics, so that I can choose guidance relevant to my teaching task without first selecting a user role.
+
+5. As an instructor, I want to follow a selected tutorial through short instructions, highlighted controls, and visible step progress until I choose Finish, so that I can learn a teaching workflow while keeping my lecture material visible.
+
+6. As an instructor, I want recording guidance that explains seed materials, starting and stopping a live session, and reviewing the generated slides, so that I can understand the preparation and review needed before sharing lecture material.
+
+7. As an instructor, I want quiz guidance that explains generating questions, reviewing them, and publishing the quiz, so that I can understand how to prepare an exit-ticket activity and check its suitability before distribution.
+
+8. As an instructor, I want an exit confirmation explaining that an unfinished tutorial will restart at Step 1, with options to continue at the current step or exit to the Portal without changing lecture content, so that I can make an informed decision about interrupting the guide.
+
+9. As an instructor, I want guidance on recognizing processing and failure states and using available editing or slide-replacement actions for unsuitable output, so that I can respond to incomplete or unreadable material before sharing it.
+
+10. As an instructor, I want different and newly added tutorial topics to use the same guide layout and controls, so that I can learn additional features through a familiar process.
 
 ## Activity Diagrams
 
@@ -471,11 +516,19 @@ The four diagrams show two instructor scenarios and two student scenarios within
 
 ### 1. Instructor — Record a lecture
 
+**Corresponding User Story — Instructor 6:**
+
+As an instructor, I want recording guidance that explains seed materials, starting and stopping a live session, and reviewing the generated slides, so that I can understand the preparation and review needed before sharing lecture material.
+
 ![Instructor recording tutorial activity diagram](images/activity-diagrams/01-instructor-recording.png)
 
 From an existing lecture, choose **Record a Lecture** in the Portal. Follow the guidance to start a live session, speak, stop recording, and review the generated slides. If the session cannot start, show the reason and microphone guidance, then offer a retry or return to the Portal.
 
 ### 2. Instructor — Generate and publish a quiz
+
+**Corresponding User Story — Instructor 7:**
+
+As an instructor, I want quiz guidance that explains generating questions, reviewing them, and publishing the quiz, so that I can understand how to prepare an exit-ticket activity and check its suitability before distribution.
 
 ![Instructor quiz tutorial activity diagram](images/activity-diagrams/02-instructor-quiz.png)
 
@@ -483,11 +536,19 @@ From a completed lecture, choose **Generate and Publish a Quiz**. Follow the gui
 
 ### 3. Student — Translate slides
 
+**Corresponding User Story — Student 5:**
+
+As a student, I want guided instructions for selecting a translation language and restoring the original lecture content, so that I can compare wording and check unfamiliar technical terms.
+
 ![Student translation tutorial activity diagram](images/activity-diagrams/03-student-translation.png)
 
 From a shared deck, choose **Translate Slides**. Use the language selector, read the translated slides, and return to the original language. If translation fails, keep the original content visible and offer a retry or return to the Portal.
 
 ### 4. Student — Listen to narration
+
+**Corresponding User Story — Student 6:**
+
+As a student, I want guided instructions for starting, pausing, and resuming narration, so that I can learn to control audio playback during independent lecture review.
 
 ![Student narration tutorial activity diagram](images/activity-diagrams/04-student-narration.png)
 
