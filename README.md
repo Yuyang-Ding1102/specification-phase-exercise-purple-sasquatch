@@ -596,9 +596,9 @@ If an action fails, a recovery message explains the problem. **Retry** repeats t
 
 ## Clickable Prototype
 
-[Open the Slide Machine Tutorials clickable prototype in Figma](https://www.figma.com/proto/SroFcNH2UkFln43ed1xbZZ/Purple-Sasquatch-%E2%80%94-Slide-Machine-Tutorials-Clickable-Prototype?node-id=3-2&starting-point-node-id=3%3A2)
+[Open the Slide Machine Tutorials clickable prototype in Figma](https://www.figma.com/proto/GGD2Fb0JpIXBhRP2m2X40h/Purple-Sasquatch-%E2%80%94-Tutorial-Portal-Wireframes?node-id=16-621&page-id=16%3A543&starting-point-node-id=16%3A621&scaling=scale-down&t=yLJzn2wosZFIlwJy-1)
 
-Choose **Instructor** to explore the recording and quiz tutorials, or **Student** to explore the translation and narration tutorials. Follow the highlighted controls and arrow prompts; **Back to Tutorials** returns to the role-selection page.
+Select **Start tutorials**, or reopen tutorials from the application menu, to enter the shared **Tutorial Portal**. Choose a topic and follow the highlighted controls and arrow prompts; **Back to Tutorials** returns to the Portal to replay or choose another topic. Search uses preset example results, and application actions are simulated in this prototype.
 
 ## Stakeholder Demo
 
