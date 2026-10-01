@@ -612,4 +612,4 @@ Select **Start tutorials**, or reopen tutorials from the application menu, to en
 
 [Open the exit-ticket quiz generated from the demo deck](https://docs.google.com/forms/d/e/1FAIpQLSe2H3LimpgxSNmEcumFFJyTp-lp5Kml4x26iL-mXky2Ln6Ayw/viewform).
 
-Question review note: The team has not yet confirmed whether any generated questions were corrected before publication. Update this note with the actual corrections, or state that none were needed, before final submission.
+Question review note: No generated quiz questions were changed before publication.
