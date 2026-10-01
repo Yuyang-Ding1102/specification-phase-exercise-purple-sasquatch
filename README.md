@@ -610,6 +610,6 @@ Select **Start tutorials**, or reopen tutorials from the application menu, to en
 
 ## Exit Ticket
 
-[Open the exit-ticket quiz generated from the demo deck](https://docs.google.com/forms/d/e/1FAIpQLSe2H3LimpgxSNmEcumFFJyTp-lp5Kml4x26iL-mXky2Ln6Ayw/viewform).
+[Open the exit-ticket quiz generated from the demo deck and distributed to classmates](https://docs.google.com/forms/d/e/1FAIpQLSe2H3LimpgxSNmEcumFFJyTp-lp5Kml4x26iL-mXky2Ln6Ayw/viewform).
 
 Question review note: No generated quiz questions were changed before publication.
