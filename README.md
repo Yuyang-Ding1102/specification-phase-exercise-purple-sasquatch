@@ -24,16 +24,16 @@ A little exercise to get started with the specification phase of the software de
 
 3. **Strength — The generated exit-ticket quiz can closely reflect the lecture content.**  
    In one trial, the quiz generated from the lecture produced clear questions that matched the material covered in the generated deck, showing that the post-lecture quiz workflow can create a useful assessment from the lecture content.  
-   **Observed in:** (https://theslidemachine.com/d/untitled-38535455)  
-   **Quiz:** (https://docs.google.com/forms/d/e/1FAIpQLSezT_elEfOEK4csWcESoTvbmaEW3_zskjtXY5espOhSVLZIug/viewform)  
+   **Observed in:**[Exit ticket] (https://theslidemachine.com/d/untitled-38535455)  
+   **Quiz:** [Quiz](https://docs.google.com/forms/d/e/1FAIpQLSezT_elEfOEK4csWcESoTvbmaEW3_zskjtXY5espOhSVLZIug/viewform)  
 
 4. **Strength — Verbal corrections are reflected in the generated slide content.**  
    In one trial, the presenter intentionally stated an incorrect value and then corrected it verbally. Slide Machine reflected the corrected information rather than preserving only the original mistake, showing that it can respond appropriately to spoken self-corrections.  
-   **Observed in:** (https://theslidemachine.com/d/untitled-ad83c51c)
+   **Observed in:** [Verbal correction](https://theslidemachine.com/d/untitled-ad83c51c)
 
 5. **Strength — Clear topic transitions are recognized and separated appropriately.**  
    In one trial, the presenter moved from one unrelated topic to another, and Slide Machine handled the transition well by keeping the topics organized rather than blending them into the same slide content.  
-   **Observed in:** (https://theslidemachine.com/d/untitled-7416ce41)
+   **Observed in:** [Transition test](https://theslidemachine.com/d/untitled-7416ce41)
 
 6. **Weakness — Seeded images are not always used when explicitly referenced during a lecture.**  
    In one test, an image of a matrix had already been uploaded as seed material, but when the presenter referred to the matrix while speaking, the generated slide did not use the uploaded image.  
@@ -57,7 +57,7 @@ A little exercise to get started with the specification phase of the software de
 
 9. **Weakness — A generated lecture may not include an introductory or title slide.**  
    In one trial, the generated deck began without a clear front/title slide, so the presentation opened directly into lecture content instead of first establishing the topic or lecture context.  
-   **Observed in:** (https://theslidemachine.com/d/untitled-d0b1ef47)  
+   **Observed in:** [No title](https://theslidemachine.com/d/untitled-d0b1ef47)  
 
 10. **Weakness — Changing the slide design can reduce formula readability.**  
 After switching the slide design, the mathematical formula became oversized and partially cut off, so the full expression was no longer visible.  
@@ -65,7 +65,7 @@ After switching the slide design, the mathematical formula became oversized and 
 
 11. **Gap — Concept slides do not always include supporting visuals or process diagrams when those would help explain the topic.**  
    In a concept-based lecture such as one explaining photosynthesis, the generated slide may present the topic in text form without adding a relevant illustrative image or a simple visual overview of the process.  
-   **Observed in:** (https://theslidemachine.com/d/untitled-7416ce41)
+   **Observed in:** [Diagrams needed](https://theslidemachine.com/d/untitled-7416ce41)
 
 
 ## Prior Art & Originality
